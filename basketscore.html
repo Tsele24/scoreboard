@@ -1,0 +1,33 @@
+
+<html>
+    <head>
+        <link rel="stylesheet" href="basketscore.css">
+    </head>
+    <body>
+        <div class="container">
+            <div class="column">
+                <h3>HOME</h3>
+                <h2 class="score" id="scoreHome">0</h2>
+                <div>
+                    <button onclick="add1Home()">+1</button>
+                    <button onclick="add2Home()">+2</button>
+                    <button onclick="add3Home()">+3</button>
+                </div>
+            </div>
+            <div class="column">
+                <button  onclick="newGame()">New Game</button>
+
+            </div>
+            <div class="column">
+                <h3>GUEST</h3>
+                <h2 class="score" id="scoreGuest">0</h2>
+                <div>
+                    <button onclick="add1Guest()">+1</button>
+                    <button onclick="add2Guest()">+2</button>
+                    <button onclick="add3Guest()">+3</button>
+                </div>
+            </div>
+        </div>
+        <script src="basketscore.js"></script>
+    </body>
+</html>

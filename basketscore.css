@@ -1,0 +1,31 @@
+
+body {
+    margin: 0;
+    text-align: center;
+    background-color: rgb(99, 131, 247);
+}
+
+.score {
+    background: #0a0001;
+    font-size: 90px;
+    color: #F94F6D;
+    width: 120px;
+    margin: 20px;
+}
+
+.container {
+    display: flex;
+    justify-content: space-around;
+    
+}
+
+button {
+    background: none;
+}
+
+h3 {
+    font: family;
+    color: white;
+}
+
+
